@@ -14,7 +14,6 @@ namespace SqlStubbornBulk
         readonly string countCommand;
         public StubbornBulk(DataTable data,SqlConnection connection,string destinationTable,int batchSize=1000)
         {
-           
             this.data = data ?? throw new ArgumentNullException(nameof(data));
             this.connection = connection ?? throw new ArgumentNullException(nameof(connection));
             this.destinationTable = destinationTable ?? throw new ArgumentNullException(nameof(destinationTable));

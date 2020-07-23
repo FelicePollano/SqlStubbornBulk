@@ -69,7 +69,7 @@ namespace SqlStubbornBulk
         /// Perform a bulk, doing many attempts in order to put as many rows as possible
         /// and colect the failures
         /// </summary>
-        /// <param name="failedRows"> a colelction that will be fileld with failures</param>
+        /// <param name="failedRows"> a collection that will be filled with failures</param>
         public void PerformBulk(List<FailedRow> failedRows)
         {
             if (failedRows is null)

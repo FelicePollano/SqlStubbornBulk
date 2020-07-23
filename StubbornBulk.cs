@@ -62,7 +62,7 @@ namespace SqlStubbornBulk
                 }
                 return remaining;
             }
-            //if we get here, we eventually bulk all the lines, so return an empty table
+            //if we get here, we eventually bulk all the lines, so we return an empty table
             return remaining;
         }
         /// <summary>
